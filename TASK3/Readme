@@ -1,0 +1,11 @@
+It contains a multi container set up
+-> Node cjs app running on port 5000
+-> Mongo DB database which stores data
+
+I used compose.yaml file thus the cintainers formed run on the same network [a default network given by compose or docker]
+
+[ docker compose -f compose.yaml up -d ] used to up or start the container and image
+
+SO THATS HOW IT WORKS
+
+THANK YOU
